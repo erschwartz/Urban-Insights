@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18911757A5AAD10EC2788DAA /* libPods-Squarespace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45708100615CEA7E825505C0 /* libPods-Squarespace.a */; };
 		845405241BE00C2300356B9C /* basictitlefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 845405231BE00C2300356B9C /* basictitlefont.ttf */; };
 		849310161BDFE7F500AE7BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849310151BDFE7F500AE7BFB /* main.m */; };
 		8493101F1BDFE7F500AE7BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8493101D1BDFE7F500AE7BFB /* Main.storyboard */; };
 		849310211BDFE7F500AE7BFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849310201BDFE7F500AE7BFB /* Images.xcassets */; };
 		849310241BDFE7F500AE7BFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849310221BDFE7F500AE7BFB /* LaunchScreen.xib */; };
 		849310301BDFE7F500AE7BFB /* SquarespaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493102F1BDFE7F500AE7BFB /* SquarespaceTests.m */; };
+		84DB66C81BEBAA7E0058C231 /* PhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB66C71BEBAA7E0058C231 /* PhotoDetailViewController.m */; };
 		84F64E2D1BE301470081EECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F64E2C1BE301470081EECB /* AppDelegate.m */; };
 		84FEA55F1BE30BA100589867 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEA55E1BE30BA100589867 /* RootViewController.m */; };
 		84FEA5621BE30BBC00589867 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FEA5611BE30BBC00589867 /* PageContentViewController.m */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		093E87A9C6A6A070CAF629BC /* Pods-Squarespace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squarespace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Squarespace/Pods-Squarespace.debug.xcconfig"; sourceTree = "<group>"; };
 		0D618431FF850486FF5C44B8 /* Pods-Squarespace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Squarespace.release.xcconfig"; path = "Pods/Target Support Files/Pods-Squarespace/Pods-Squarespace.release.xcconfig"; sourceTree = "<group>"; };
-		45708100615CEA7E825505C0 /* libPods-Squarespace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Squarespace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DE65E52CAB7C4C0F18BC57C /* Pods-SquarespaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquarespaceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SquarespaceTests/Pods-SquarespaceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		845405231BE00C2300356B9C /* basictitlefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = basictitlefont.ttf; sourceTree = "<group>"; };
 		849310101BDFE7F500AE7BFB /* Squarespace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squarespace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849310141BDFE7F500AE7BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		849310291BDFE7F500AE7BFB /* SquarespaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquarespaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8493102E1BDFE7F500AE7BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8493102F1BDFE7F500AE7BFB /* SquarespaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquarespaceTests.m; sourceTree = "<group>"; };
+		84DB66C61BEBAA7E0058C231 /* PhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailViewController.h; sourceTree = "<group>"; };
+		84DB66C71BEBAA7E0058C231 /* PhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailViewController.m; sourceTree = "<group>"; };
 		84F64E2C1BE301470081EECB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84F64E2E1BE301700081EECB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84FEA55D1BE30BA100589867 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		84FEA5751BE3510700589867 /* Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flickr.m; sourceTree = "<group>"; };
 		84FEA5761BE3510700589867 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
 		84FEA5771BE3510700589867 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		DCC1A9E94300D7611CE51E4B /* Pods-SquarespaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquarespaceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SquarespaceTests/Pods-SquarespaceTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18911757A5AAD10EC2788DAA /* libPods-Squarespace.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +93,6 @@
 		7C8CBF221362251DFD80CD4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45708100615CEA7E825505C0 /* libPods-Squarespace.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +141,8 @@
 				849310131BDFE7F500AE7BFB /* Supporting Files */,
 				84FEA5711BE34B7100589867 /* PhotoCollectionViewController.h */,
 				84FEA5721BE34B7100589867 /* PhotoCollectionViewController.m */,
+				84DB66C61BEBAA7E0058C231 /* PhotoDetailViewController.h */,
+				84DB66C71BEBAA7E0058C231 /* PhotoDetailViewController.m */,
 			);
 			path = Squarespace;
 			sourceTree = "<group>";
@@ -177,6 +180,8 @@
 			children = (
 				093E87A9C6A6A070CAF629BC /* Pods-Squarespace.debug.xcconfig */,
 				0D618431FF850486FF5C44B8 /* Pods-Squarespace.release.xcconfig */,
+				6DE65E52CAB7C4C0F18BC57C /* Pods-SquarespaceTests.debug.xcconfig */,
+				DCC1A9E94300D7611CE51E4B /* Pods-SquarespaceTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -188,12 +193,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849310331BDFE7F500AE7BFB /* Build configuration list for PBXNativeTarget "Squarespace" */;
 			buildPhases = (
-				355954BEE382477D0D6B59F3 /* Check Pods Manifest.lock */,
 				8493100C1BDFE7F500AE7BFB /* Sources */,
 				8493100D1BDFE7F500AE7BFB /* Frameworks */,
 				8493100E1BDFE7F500AE7BFB /* Resources */,
-				68170680963F432DD7B653C7 /* Embed Pods Frameworks */,
-				94575E190B3A4E7A42D46ADF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -281,54 +283,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		355954BEE382477D0D6B59F3 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		68170680963F432DD7B653C7 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squarespace/Pods-Squarespace-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		94575E190B3A4E7A42D46ADF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Squarespace/Pods-Squarespace-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8493100C1BDFE7F500AE7BFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -342,6 +296,7 @@
 				84FEA5671BE3246D00589867 /* HomeViewController.m in Sources */,
 				84FEA5791BE3510700589867 /* FlickrPhoto.m in Sources */,
 				84FEA5781BE3510700589867 /* Flickr.m in Sources */,
+				84DB66C81BEBAA7E0058C231 /* PhotoDetailViewController.m in Sources */,
 				84FEA55F1BE30BA100589867 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +339,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		849310311BDFE7F500AE7BFB /* Debug */ = {
+		845F7D8B1BEC1D440065F497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,16 +359,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -421,10 +370,31 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		845F7D8C1BEC1D440065F497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squarespace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		845F7D8D1BEC1D440065F497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquarespaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squarespace.app/Squarespace";
 			};
 			name = Debug;
 		};
@@ -466,20 +436,8 @@
 			};
 			name = Release;
 		};
-		849310341BDFE7F500AE7BFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 093E87A9C6A6A070CAF629BC /* Pods-Squarespace.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Squarespace/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
 		849310351BDFE7F500AE7BFB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D618431FF850486FF5C44B8 /* Pods-Squarespace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Squarespace/Info.plist;
@@ -488,33 +446,10 @@
 			};
 			name = Release;
 		};
-		849310371BDFE7F500AE7BFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SquarespaceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squarespace.app/Squarespace";
-			};
-			name = Debug;
-		};
 		849310381BDFE7F500AE7BFB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = SquarespaceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,29 +463,29 @@
 		8493100B1BDFE7F500AE7BFB /* Build configuration list for PBXProject "Squarespace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				849310311BDFE7F500AE7BFB /* Debug */,
 				849310321BDFE7F500AE7BFB /* Release */,
+				845F7D8B1BEC1D440065F497 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		849310331BDFE7F500AE7BFB /* Build configuration list for PBXNativeTarget "Squarespace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				849310341BDFE7F500AE7BFB /* Debug */,
 				849310351BDFE7F500AE7BFB /* Release */,
+				845F7D8C1BEC1D440065F497 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		849310361BDFE7F500AE7BFB /* Build configuration list for PBXNativeTarget "SquarespaceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				849310371BDFE7F500AE7BFB /* Debug */,
 				849310381BDFE7F500AE7BFB /* Release */,
+				845F7D8D1BEC1D440065F497 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

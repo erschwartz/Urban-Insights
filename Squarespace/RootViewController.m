@@ -1,10 +1,4 @@
-//
-//  RootViewController.m
-//  Squarespace
-//
-//  Created by Admin on 10/29/15.
-//  Copyright (c) 2015 Admin. All rights reserved.
-//
+
 
 #import "RootViewController.h"
 
@@ -19,7 +13,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.descriptionArray = @[@"find the latest photographs by location.",@"filter photographs at your pleasing.",@"explore your city like never before."];
+    self.descriptionArray = @[@"find the latest photographs by keyword.",@"filter photographs at your pleasing.",@"explore flickr photographs easily."];
     self.PageViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"PageViewController"];
     self.PageViewController.dataSource = self;
     PageContentViewController *startingViewController = [self viewControllerAtIndex:0];

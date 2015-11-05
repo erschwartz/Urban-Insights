@@ -1,10 +1,4 @@
-//
-//  FlickrPhoto.h
-//  Flickr Search
-//
-//  Created by Brandon Trebitowski on 6/28/12.
-//  Copyright (c) 2012 Brandon Trebitowski. All rights reserved.
-//
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -18,5 +12,6 @@
 @property(nonatomic) NSInteger farm;
 @property(nonatomic) NSInteger server;
 @property(nonatomic,strong) NSString *secret;
+@property(nonatomic,strong) NSString *title;
 
 @end

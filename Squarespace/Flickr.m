@@ -1,10 +1,3 @@
-//
-//  Flickr.m
-//  Flickr Search
-//
-//  Created by Brandon Trebitowski on 6/28/12.
-//  Copyright (c) 2012 Brandon Trebitowski. All rights reserved.
-//
 
 #import "Flickr.h"
 #import "FlickrPhoto.h"
@@ -14,10 +7,11 @@
 
 @implementation Flickr
 
-+ (NSString *)flickrSearchURLForSearchTerm:(NSString *) searchTerm
++ (NSString *)flickrSearchURLForSearchTerm:(NSString *) searchTerm resultsCalled:(NSInteger *) resultsCalled
 {
     searchTerm = [searchTerm stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    return [NSString stringWithFormat:@"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&text=%@&per_page=21&format=json&nojsoncallback=1",FLICKR_API_KEY,searchTerm];
+    //NSString *inStr = [NSString stringWithFormat: @"%ld", (long)resultsCalled];
+    return [NSString stringWithFormat:@"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%@&text=%@&per_page=%ld&format=json&nojsoncallback=1",FLICKR_API_KEY,searchTerm, (long)*resultsCalled];
 }
 
 + (NSString *)flickrPhotoURLForFlickrPhoto:(FlickrPhoto *) flickrPhoto size:(NSString *) size
@@ -29,9 +23,10 @@
     return [NSString stringWithFormat:@"http://farm%ld.staticflickr.com/%ld/%lld_%@_%@.jpg",(long)flickrPhoto.farm,(long)flickrPhoto.server,flickrPhoto.photoID,flickrPhoto.secret,size];
 }
 
-- (void)searchFlickrForTerm:(NSString *) term completionBlock:(FlickrSearchCompletionBlock) completionBlock
+- (void)searchFlickrForTerm:(NSString *) term size:(int) size completionBlock:(FlickrSearchCompletionBlock) completionBlock
 {
-    NSString *searchURL = [Flickr flickrSearchURLForSearchTerm:term];
+    NSInteger theInteger = size;
+    NSString *searchURL = [Flickr flickrSearchURLForSearchTerm:term resultsCalled:&theInteger];
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
     dispatch_async(queue, ^{
         NSError *error = nil;
@@ -69,6 +64,7 @@
                         photo.server = [objPhoto[@"server"] intValue];
                         photo.secret = objPhoto[@"secret"];
                         photo.photoID = [objPhoto[@"id"] longLongValue];
+                        photo.title = objPhoto[@"title"];
                         
                         NSString *searchURL = [Flickr flickrPhotoURLForFlickrPhoto:photo size:@"m"];
                         NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:searchURL]
