@@ -26,8 +26,8 @@
     [super viewDidLoad];
     
     //The status bar needs to change to white
-    searchBarSelector.keyboardAppearance = UIKeyboardAppearanceDark;
     [self setNeedsStatusBarAppearanceUpdate];
+    searchBarSelector.keyboardAppearance = UIKeyboardAppearanceDark;
     
     //Setting the initial alpha/hidden values. The photocollectioncontainer is originally hidden because it does not appear until the user searchs.
     _photoCollectionContainer.hidden = YES;
@@ -49,7 +49,7 @@
 #pragma mark StatusBar
 
 //Setting the status bar style to light, as we have a black background
-+ (UIStatusBarStyle)preferredStatusBarStyle {
+- (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
 
