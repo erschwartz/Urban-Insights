@@ -8,8 +8,11 @@
 
 @implementation PhotoCollectionViewCell
 
-@synthesize photo, imageView;
+@synthesize imageView;
 
+#pragma mark - UICollectionViewCell
+
+//Initializing the correct frame and adding our image to it
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
@@ -19,6 +22,7 @@
     return self;
 }
 
+//Laying out the subviews, setting up our imageview so that it is circular
 - (void) layoutSubviews {
     [super layoutSubviews];
     self.imageView.frame = self.contentView.bounds;

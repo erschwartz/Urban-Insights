@@ -7,6 +7,5 @@
 @interface PhotoCollectionViewCell : UICollectionViewCell
 
 @property (nonatomic, strong) IBOutlet UIImageView *imageView;
-@property (nonatomic, strong) FlickrPhoto *photo;
 
 @end
