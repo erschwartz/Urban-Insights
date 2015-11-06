@@ -4,7 +4,6 @@
 #import "PhotoCollectionViewCell.h"
 #import "PhotoDetailViewController.h"
 #import "FlickrPhoto.h"
-#import "FlickrAPIKey.h"
 #import "Flickr.h"
 
 @interface PhotoCollectionViewController ()
@@ -111,5 +110,7 @@
         }
     }];
 }
+
+
 
 @end

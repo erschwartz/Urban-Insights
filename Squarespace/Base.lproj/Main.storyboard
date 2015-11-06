@@ -22,7 +22,7 @@
         <!--Root View Controller-->
         <scene sceneID="Rc3-bC-kRl">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="7aq-BJ-UDM" customClass="RootViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" automaticallyAdjustsScrollViewInsets="NO" id="7aq-BJ-UDM" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Luc-WU-Tvi"/>
                         <viewControllerLayoutGuide type="bottom" id="XmP-h2-BRF"/>
@@ -209,7 +209,7 @@
         <!--Home View Controller-->
         <scene sceneID="Hrs-te-OMx">
             <objects>
-                <viewController id="Dd4-gS-MRj" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="Dd4-gS-MRj" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QdW-Bu-qXb"/>
                         <viewControllerLayoutGuide type="bottom" id="hE2-G9-juZ"/>
@@ -363,7 +363,7 @@
         <!--Photo Collection View Controller-->
         <scene sceneID="eCK-Cg-wyS">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="1ug-ff-Ka0" customClass="PhotoCollectionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoCollectionViewController" automaticallyAdjustsScrollViewInsets="NO" id="1ug-ff-Ka0" customClass="PhotoCollectionViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qX1-cZ-Zu6"/>
                         <viewControllerLayoutGuide type="bottom" id="vmE-eV-FgE"/>
@@ -483,7 +483,7 @@
         <!--Photo Detail View Controller-->
         <scene sceneID="9QH-J2-Wzw">
             <objects>
-                <viewController id="W8o-Op-gYM" customClass="PhotoDetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoDetailViewController" id="W8o-Op-gYM" customClass="PhotoDetailViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cnu-Pd-5Kr"/>
                         <viewControllerLayoutGuide type="bottom" id="lQp-WJ-GvM"/>
@@ -620,7 +620,7 @@
                     <navigationItem key="navigationItem" id="NdL-R7-Zlz">
                         <barButtonItem key="leftBarButtonItem" id="eFc-a7-Qgh">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jQP-St-g2F">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="20" y="7" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="BebasNeueBook" family="Bebas Neue" pointSize="21"/>
                                 <state key="normal" title="Back">
